@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB6Demo", "DB6Demo.csproj", "{CFBB4337-5C5B-433F-AB03-A7E33DDD732B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{32A08447-6951-4BA3-9475-7C0773C50B76}"
+	ProjectSection(SolutionItems) = preProject
+		Theme.cs = Theme.cs
+		Theme.plist = Theme.plist
+		ThemeLoader.cs = ThemeLoader.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFBB4337-5C5B-433F-AB03-A7E33DDD732B}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{CFBB4337-5C5B-433F-AB03-A7E33DDD732B}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{CFBB4337-5C5B-433F-AB03-A7E33DDD732B}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{CFBB4337-5C5B-433F-AB03-A7E33DDD732B}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{CFBB4337-5C5B-433F-AB03-A7E33DDD732B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{CFBB4337-5C5B-433F-AB03-A7E33DDD732B}.Debug|iPhone.Build.0 = Debug|iPhone
+		{CFBB4337-5C5B-433F-AB03-A7E33DDD732B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{CFBB4337-5C5B-433F-AB03-A7E33DDD732B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{CFBB4337-5C5B-433F-AB03-A7E33DDD732B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{CFBB4337-5C5B-433F-AB03-A7E33DDD732B}.Release|iPhone.Build.0 = Release|iPhone
+		{CFBB4337-5C5B-433F-AB03-A7E33DDD732B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{CFBB4337-5C5B-433F-AB03-A7E33DDD732B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = DB6Demo.csproj
+	EndGlobalSection
+EndGlobal
