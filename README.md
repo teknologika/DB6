@@ -11,7 +11,7 @@ DB6 allows theming information to be stored in a plist, alowing design to be sep
 
 A demo application DB6Demo is included. It uses two classes ThemeLoader and Theme. Included also is a Theme.plist to store the theming information.
 
-At startup you load the file via VSThemeLoader, then access values via methods in VSTheme.
+You load the file via ThemeLoader, then access values via methods in Theme. The demo has a single view so this is don in view did load, however in a real app you would probably want to do that in the appdelegate.
 
         public override void ViewDidLoad()
         {
